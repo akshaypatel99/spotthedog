@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body,
+html,
+#root {
+  height: 100%;
+}
+
+html {
+  font-size: 18px;
+  background-image: url('./perry-avgerinos-R2dlVo7WQVs-unsplash-update.jpg');
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  padding: 1rem 0;
+  margin: 0;
+  background-color: #010c3f;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+h1 .highlight {
+  color: #1DB954;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+.App {
+  height: 100%;
+  padding: 0 17% 10% 17%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+.HowTo {
+  font-family: 'Droid Serif', sans-serif;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding-top: 2.5rem;
+  text-align: center;
+  text-shadow: 0px 0px 20px black;
+}
+
+.HowTo p {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.HowTo span {
+  font-weight: bold;
+  color: #1DB954;
+}
+
+.App-playlist {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1020px) {
+  .App-playlist {
+    align-items: center;
+    flex-direction: column;
+  }
+}
